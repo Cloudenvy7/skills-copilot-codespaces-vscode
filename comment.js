@@ -18,6 +18,7 @@ app.get("/api/comments", function(req, res) {
 });
 
 // Post a comment
-app.post("/api/comments", function(req, res) {
+app.post("/api/comments", function(req, res) {  
   const newComment = {
-    id: comment.comments.length + 1,
+    id: comment.comments.length + 1,}
+})
